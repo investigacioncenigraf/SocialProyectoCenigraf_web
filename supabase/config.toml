@@ -1,0 +1,8 @@
+[functions.email-verification]
+verify_jwt = false
+
+[functions.auth0-profile]
+verify_jwt = false
+
+[functions.set-role-access]
+verify_jwt = false

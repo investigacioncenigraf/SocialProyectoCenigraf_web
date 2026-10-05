@@ -1,0 +1,34 @@
+/* Paleta semántica: reemplaza estos valores por los colores del cliente. */
+:root {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-corporate-background: #d4d4d4;
+  --color-page-background: #f5f5f5;
+  --color-input-background: #ececec;
+  --color-text: #111111;
+  --color-text-muted: #666666;
+  --color-border: #999999;
+  --color-personalized-name: #527fa6;
+  --color-navbar-background: #ececec;
+  --color-avatar-background: #d4d4d4;
+  --color-sign-out-background: #f4dddd;
+  --color-sign-out-hover: #edcccc;
+  --color-sign-out-text: #87484c;
+  --color-brand: #333333;
+  --color-on-brand: #ffffff;
+  --color-focus: #555555;
+  --color-password-weak: #da8c91;
+  --color-password-medium: #dda36e;
+  --color-password-strong: #83b79b;
+  --color-error: #444444;
+  --color-corporate-art: #f5f5f5;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: var(--color-page-background); color: var(--color-text); }
+button, input { font: inherit; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 5px; }
